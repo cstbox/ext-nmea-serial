@@ -1,0 +1,7 @@
+{
+    "protocol" : "serial-nmea",
+    "description" : {
+        "*" : "Réseau NMEA RS232",
+        "en" : "NMEA RS232 network"
+    }
+}
