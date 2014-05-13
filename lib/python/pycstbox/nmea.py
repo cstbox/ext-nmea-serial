@@ -21,6 +21,7 @@ __copyright__ = 'Copyright (c) 2013 CSTB'
 __vcs_id__ = '$Id$'
 __version__ = '1.0.0'
 
+
 class NMEASentence(object):
     """ Convenient decomposition of a NMEA sentence.
 
