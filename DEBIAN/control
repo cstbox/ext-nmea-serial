@@ -1,4 +1,4 @@
-Package: cstbox-ext-knz
+Package: cstbox-ext-nmea-serial
 Version: 1.0.0
 Section: base
 Priority: optional
