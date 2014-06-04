@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
         svc.log_setLevel_from_args(args)
         # load the configuration data for serial NMEA coordinators
-        svc.load_configuration(
+        svc._load_configuration(
             dict([(k, v) for k, v in cfg.iteritems() if v.type == 'serial-nmea'])
         )
         svc.start()
