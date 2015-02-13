@@ -3,11 +3,9 @@ Version: 1.0.0
 Section: base
 Priority: optional
 Architecture: all
-Depends: cstbox-core, cstbox-modbus
+Depends: cstbox-core
 Maintainer: Eric Pascual <eric.pascual@cstb.fr>
-Description: CSTBox Kipp and Zonen Modbus products support
+Description: CSTBox NMEA serial products support
     This package adds to an existing CSTBox framework the support
-    for Kipp and Zonen Modbus products. 
-    .
-    Included products support:
-    - SMP11 pyranometer
+    for NMEA devices connected via a serial link.
+
